@@ -1,33 +1,55 @@
 # Infinity C++ Server Emulator
 
-Research-oriented C++ server emulator for Infinity client protocol work.
+![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)
+![CMake](https://img.shields.io/badge/build-CMake-064F8C?logo=cmake&logoColor=white)
+![Windows](https://img.shields.io/badge/platform-Windows-0078D4?logo=windows&logoColor=white)
+![Status](https://img.shields.io/badge/status-server%20emulator%20research-orange)
 
-This is not a complete private server and it does not contain official server code. The current goal is to emulate enough client-facing behavior for local protocol testing, login/lobby/shop flows, room setup, and ongoing gameplay research.
+Research-oriented C++20 server emulator for Infinity client protocol work.
 
-This public export contains the C++ server, starter runtime configuration, and CSV data for the current item, skill, package, and included mission-layout loaders. It does not include packet captures, runtime logs, decoded traffic reports, generated helper catalogs, or private local account data.
+This project is meant to emulate enough client-facing behavior for local protocol testing, login/lobby/shop flows, room setup, and ongoing gameplay research. It is not a complete private server, not a production MMORPG backend, and it does not contain official server code.
 
-## Status
+## At A Glance
 
-The emulator currently builds and runs with starter data, supports a set of known TCP client flows, includes local HTTP/injector helpers, and has experimental UDP gameplay-sync work behind an explicit flag. It should be treated as a protocol emulator and research base, not a production MMORPG backend.
+| This repo is | This repo is not |
+| --- | --- |
+| A C++ server emulator for client protocol research | A complete private server |
+| A runnable local test bed with starter data | A production MMORPG backend |
+| A place to document confirmed packet behavior | A source of official server code |
+| A sanitized public export | A dump of captures, logs, private accounts, or client binaries |
 
-See `ROADMAP.md` for the implemented feature list and remaining work.
+## Current Status
 
-## Build
+| Area | Status | Notes |
+| --- | --- | --- |
+| Build and startup | Implemented | CMake project with `build.bat`, `run.bat`, starter JSON, and CSV data. |
+| TCP transport | Implemented | LZSS stream handling, logical packet framing, logging, and opcode dispatch. |
+| Login and lobby | Implemented locally | Covers known login challenge, lobby connect, channels, account, character, guard, item, skill, and quickslot flows. |
+| Shop and inventory | Implemented locally | Supports item/skill purchase, currency checks, package expansion, equipment, removal, and supported quickslot assignment. |
+| Room setup | Partially implemented | Covers TCP room list/create/info/state/start/leave flows used by the current emulator path. |
+| UDP gameplay | Experimental | Native-order sync work exists behind `--experimental-game-udp-sync`; mission gameplay is not complete. |
+| Full MMORPG backend | Not implemented | No complete authoritative combat, rewards, matchmaking, account security, persistence layer, or production operations. |
+
+## Roadmap Snapshot
+
+| Done | Next | Later |
+| --- | --- | --- |
+| Runnable C++20 TCP emulator | Add tests for packet codecs, inventory, account persistence, and room flows | Production-grade account storage if public testing ever needs it |
+| Starter account/config/data files | Stabilize multi-client TCP room behavior | Complete channel, matchmaking, and long-running operations tooling |
+| Local HTTP endpoint helper | Verify UDP mission entry against captures | Full authoritative mission loop, combat, rewards, and progression |
+| Injector source and build docs | Complete reviewed mission catalog coverage | Broader client-version compatibility documentation |
+
+See [ROADMAP.md](ROADMAP.md) for the full implemented feature list, remaining work, and suggested milestones.
+
+## Quick Start
 
 ```powershell
 cmake -S . -B build
 cmake --build build --config Debug
+build\Debug\tcp_lzss_server_cpp.exe
 ```
 
 On Windows, `build.bat Debug` or `build.bat Release` runs the same CMake flow.
-
-## Run
-
-The repo includes default starter files, so after building you can run:
-
-```powershell
-build\Debug\tcp_lzss_server_cpp.exe
-```
 
 Useful flags:
 
@@ -37,22 +59,24 @@ build\Debug\tcp_lzss_server_cpp.exe --host 127.0.0.1 --port 8080 --game-udp-port
 
 On Windows, `run.bat Debug` builds and runs the server in one step. `run.bat` defaults to Release.
 
-## Client Helpers
+## Project Layout
 
-Optional helpers are included for local client testing:
-
-- `http_server/`: Node.js `/net_gsp.php` endpoint helper. Its README includes the Windows hosts-file entry for `www.arngamez.com`.
-- `injector/`: x86 client hook/injector source. Its README includes Visual Studio build steps and runtime usage.
+| Path | Purpose |
+| --- | --- |
+| `src/` and `include/` | C++ emulator source, packet definitions, TCP server code, UDP research code, and tools. |
+| `data/setting/` | Starter item, skill, character, and catalog CSV files. |
+| `data/missions/` | Included starter mission layout data. |
+| `http_server/` | Node.js `/net_gsp.php` endpoint helper for local client startup. |
+| `injector/` | x86 client hook/injector source and build instructions. |
+| `client_runtime/` | Notes for external client runtime files that are not tracked in this repo. |
+| `ROADMAP.md` | Detailed implementation status and future work. |
 
 ## Client Setup
 
-Use this client installer for normal setup:
-
-- https://archive.org/details/infinity-online-client
-
-Use this second archive only as a source for `speedtreert.dll` if the first client install is missing it:
-
-- https://archive.org/details/cbt-infinity-20101011-manual
+| Source | Purpose |
+| --- | --- |
+| https://archive.org/details/infinity-online-client | Main client installer for normal setup. |
+| https://archive.org/details/cbt-infinity-20101011-manual | Use only to extract `speedtreert.dll` if the main client install is missing it. |
 
 Install or unpack the client outside this repository. The client folder should contain `xclient.exe`.
 
@@ -63,6 +87,11 @@ Start the client from a terminal so the language flag is applied:
 ```powershell
 .\xclient.exe -english
 ```
+
+Optional helpers are included for local client testing:
+
+- `http_server/`: Node.js `/net_gsp.php` endpoint helper. Its README includes the Windows hosts-file entry for `www.arngamez.com`.
+- `injector/`: x86 client hook/injector source. Its README includes Visual Studio build steps and runtime usage.
 
 ## Demo Accounts
 
