@@ -55,13 +55,15 @@ The repo includes starter CSV data from:
 - `data/setting/game_itemlist.csv`
 - `data/setting/item.csv`
 - `data/setting/character.csv`
+- `data/package_contents.csv`
 - `data/missions/*.csv`
 
-Generated catalogs and private exports are still ignored:
+`data/package_contents.csv` lets package/bundle shop items expand into their contained equipment or items when purchased.
+
+Generated helper catalogs are still ignored:
 
 - `data/item_id_catalog.json`
 - `data/item_type_catalog.json`
-- `data/package_contents.csv`
 
 ## Repository Hygiene
 

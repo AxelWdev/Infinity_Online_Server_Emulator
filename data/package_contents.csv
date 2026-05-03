@@ -1,0 +1,136 @@
+package_item_id,content_item_id,role,notes
+20000,8007,weapon,Baekho swimsuit weapon
+20000,8000,main_clothes,Baekho swimsuit default clothes
+20000,8004,accessory_1,Baekho swimsuit accessory 1
+20000,8005,accessory_2,Baekho swimsuit accessory 2
+20000,8006,accessory_3,Baekho swimsuit accessory 3
+20001,8506,weapon,Baekho uniform weapon
+20001,8501,main_clothes,Baekho uniform clothes
+20001,8503,accessory_1,Baekho uniform accessory 1
+20001,8504,accessory_2,Baekho uniform accessory 2
+20001,8505,accessory_3,Baekho uniform accessory 3
+20002,8506,weapon,Baekho uniform weapon
+20002,8501,main_clothes,Baekho uniform clothes
+20002,8503,accessory_1,Baekho uniform accessory 1
+20002,8504,accessory_2,Baekho uniform accessory 2
+20002,8505,accessory_3,Baekho uniform accessory 3
+20050,8071,weapon,Elina swimsuit weapon
+20050,8010,main_clothes,Elina swimsuit default clothes
+20050,8012,accessory_1,Elina swimsuit accessory 1
+20050,8013,accessory_2,Elina swimsuit accessory 2
+20050,8070,accessory_3,Elina swimsuit accessory 3
+20051,8512,weapon,Elina uniform weapon
+20051,8507,main_clothes,Elina uniform clothes
+20051,8509,accessory_1,Elina uniform accessory 1
+20051,8510,accessory_2,Elina uniform accessory 2
+20051,8511,accessory_3,Elina uniform accessory 3
+20052,8512,weapon,Elina uniform weapon
+20052,8507,main_clothes,Elina uniform clothes
+20052,8509,accessory_1,Elina uniform accessory 1
+20052,8510,accessory_2,Elina uniform accessory 2
+20052,8511,accessory_3,Elina uniform accessory 3
+20100,8021,weapon,Juru swimsuit weapon
+20100,8016,main_clothes,Juru swimsuit default clothes
+20100,8018,accessory_1,Juru swimsuit accessory 1
+20100,8019,accessory_2,Juru swimsuit accessory 2
+20100,8020,accessory_3,Juru swimsuit accessory 3
+20101,8518,weapon,Juru uniform weapon
+20101,8513,main_clothes,Juru uniform clothes
+20101,8515,accessory_1,Juru uniform accessory 1
+20101,8516,accessory_2,Juru uniform accessory 2
+20101,8517,accessory_3,Juru uniform accessory 3
+20102,8518,weapon,Juru uniform weapon
+20102,8513,main_clothes,Juru uniform clothes
+20102,8515,accessory_1,Juru uniform accessory 1
+20102,8516,accessory_2,Juru uniform accessory 2
+20102,8517,accessory_3,Juru uniform accessory 3
+20150,8029,weapon,Kirius swimsuit weapon
+20150,8022,main_clothes,Kirius swimsuit default clothes
+20150,8026,accessory_1,Kirius swimsuit accessory 1
+20150,8027,accessory_2,Kirius swimsuit accessory 2
+20150,8028,accessory_3,Kirius swimsuit accessory 3
+20151,8524,weapon,Kirius uniform weapon
+20151,8519,main_clothes,Kirius uniform clothes
+20151,8521,accessory_1,Kirius uniform accessory 1
+20151,8522,accessory_2,Kirius uniform accessory 2
+20151,8523,accessory_3,Kirius uniform accessory 3
+20152,8524,weapon,Kirius uniform weapon
+20152,8519,main_clothes,Kirius uniform clothes
+20152,8521,accessory_1,Kirius uniform accessory 1
+20152,8522,accessory_2,Kirius uniform accessory 2
+20152,8523,accessory_3,Kirius uniform accessory 3
+20200,8037,weapon,Alexia swimsuit weapon
+20200,8030,main_clothes,Alexia swimsuit default clothes
+20200,8034,accessory_1,Alexia swimsuit accessory 1
+20200,8035,accessory_2,Alexia swimsuit accessory 2
+20200,8036,accessory_3,Alexia swimsuit accessory 3
+20201,8530,weapon,Alexia uniform weapon
+20201,8525,main_clothes,Alexia uniform clothes
+20201,8527,accessory_1,Alexia uniform accessory 1
+20201,8528,accessory_2,Alexia uniform accessory 2
+20201,8529,accessory_3,Alexia uniform accessory 3
+20202,8530,weapon,Alexia uniform weapon
+20202,8525,main_clothes,Alexia uniform clothes
+20202,8527,accessory_1,Alexia uniform accessory 1
+20202,8528,accessory_2,Alexia uniform accessory 2
+20202,8529,accessory_3,Alexia uniform accessory 3
+20250,8045,weapon,Kain swimsuit weapon
+20250,8040,main_clothes,Kain swimsuit default clothes
+20250,8042,accessory_1,Kain swimsuit accessory 1
+20250,8043,accessory_2,Kain swimsuit accessory 2
+20250,8044,accessory_3,Kain swimsuit accessory 3
+20251,8536,weapon,Kain uniform weapon
+20251,8531,main_clothes,Kain uniform clothes
+20251,8533,accessory_1,Kain uniform accessory 1
+20251,8534,accessory_2,Kain uniform accessory 2
+20251,8535,accessory_3,Kain uniform accessory 3
+20252,8536,weapon,Kain uniform weapon
+20252,8531,main_clothes,Kain uniform clothes
+20252,8533,accessory_1,Kain uniform accessory 1
+20252,8534,accessory_2,Kain uniform accessory 2
+20252,8535,accessory_3,Kain uniform accessory 3
+20300,8053,weapon,Violet swimsuit weapon
+20300,8048,main_clothes,Violet swimsuit default clothes
+20300,8050,accessory_1,Violet swimsuit accessory 1
+20300,8051,accessory_2,Violet swimsuit accessory 2
+20300,8052,accessory_3,Violet swimsuit accessory 3
+20301,8542,weapon,Violet uniform weapon
+20301,8537,main_clothes,Violet uniform clothes
+20301,8539,accessory_1,Violet uniform accessory 1
+20301,8540,accessory_2,Violet uniform accessory 2
+20301,8541,accessory_3,Violet uniform accessory 3
+20302,8542,weapon,Violet uniform weapon
+20302,8537,main_clothes,Violet uniform clothes
+20302,8539,accessory_1,Violet uniform accessory 1
+20302,8540,accessory_2,Violet uniform accessory 2
+20302,8541,accessory_3,Violet uniform accessory 3
+20350,8061,weapon,Dorosi swimsuit weapon
+20350,8056,main_clothes,Dorosi swimsuit default clothes
+20350,8058,accessory_1,Dorosi swimsuit accessory 1
+20350,8059,accessory_2,Dorosi swimsuit accessory 2
+20350,8060,accessory_3,Dorosi swimsuit accessory 3
+20351,8548,weapon,Dorosi uniform weapon
+20351,8543,main_clothes,Dorosi uniform clothes
+20351,8545,accessory_1,Dorosi uniform accessory 1
+20351,8546,accessory_2,Dorosi uniform accessory 2
+20351,8547,accessory_3,Dorosi uniform accessory 3
+20352,8548,weapon,Dorosi uniform weapon
+20352,8543,main_clothes,Dorosi uniform clothes
+20352,8545,accessory_1,Dorosi uniform accessory 1
+20352,8546,accessory_2,Dorosi uniform accessory 2
+20352,8547,accessory_3,Dorosi uniform accessory 3
+20400,8069,weapon,Xiyun swimsuit weapon
+20400,8062,main_clothes,Xiyun swimsuit default clothes
+20400,8066,accessory_1,Xiyun swimsuit accessory 1
+20400,8067,accessory_2,Xiyun swimsuit accessory 2
+20400,8068,accessory_3,Xiyun swimsuit accessory 3
+20401,8554,weapon,Xiyun uniform weapon
+20401,8549,main_clothes,Xiyun uniform clothes
+20401,8551,accessory_1,Xiyun uniform accessory 1
+20401,8552,accessory_2,Xiyun uniform accessory 2
+20401,8553,accessory_3,Xiyun uniform accessory 3
+20402,8554,weapon,Xiyun uniform weapon
+20402,8549,main_clothes,Xiyun uniform clothes
+20402,8551,accessory_1,Xiyun uniform accessory 1
+20402,8552,accessory_2,Xiyun uniform accessory 2
+20402,8553,accessory_3,Xiyun uniform accessory 3

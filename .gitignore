@@ -25,7 +25,7 @@ logs_archive/
 udp_hook_decode_report*.txt
 tcp_lzss_server_cpp_debug.log
 
-# Published starter data. Keep generated catalogs and package exports local.
+# Published starter data. Keep generated catalogs local.
 data/setting/*
 !data/setting/.gitkeep
 !data/setting/*.csv
@@ -36,7 +36,6 @@ data/missions/*
 !data/missions/*.txt
 data/item_id_catalog.json
 data/item_type_catalog.json
-data/package_contents.csv
 
 # Local scratch
 *.tmp
