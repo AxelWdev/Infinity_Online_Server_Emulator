@@ -1,8 +1,16 @@
-# Infinity C++ Server
+# Infinity C++ Server Emulator
 
-Standalone C++ server implementation for the Infinity client protocol work.
+Research-oriented C++ server emulator for Infinity client protocol work.
+
+This is not a complete private server and it does not contain official server code. The current goal is to emulate enough client-facing behavior for local protocol testing, login/lobby/shop flows, room setup, and ongoing gameplay research.
 
 This public export contains the C++ server, starter runtime configuration, and CSV data for the current item, skill, package, and included mission-layout loaders. It does not include packet captures, runtime logs, decoded traffic reports, generated helper catalogs, or private local account data.
+
+## Status
+
+The emulator currently builds and runs with starter data, supports a set of known TCP client flows, includes local HTTP/injector helpers, and has experimental UDP gameplay-sync work behind an explicit flag. It should be treated as a protocol emulator and research base, not a production MMORPG backend.
+
+See `ROADMAP.md` for the implemented feature list and remaining work.
 
 ## Build
 
