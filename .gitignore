@@ -12,11 +12,10 @@ out/
 *.lib
 
 # Runtime/private data
-account_database.json
-account_database*.json
-!account_database.example.json
-tcp_lzss_server_options.json
-!tcp_lzss_server_options.example.json
+account_database.local.json
+account_database.*.local.json
+tcp_lzss_server_options.local.json
+tcp_lzss_server_options.*.local.json
 
 # Logs and packet captures
 logs/
@@ -26,11 +25,15 @@ logs_archive/
 udp_hook_decode_report*.txt
 tcp_lzss_server_cpp_debug.log
 
-# Extracted/generated game data. Keep only documentation/placeholders.
+# Published starter data. Keep generated catalogs and package exports local.
 data/setting/*
 !data/setting/.gitkeep
+!data/setting/*.csv
+!data/setting/*.txt
 data/missions/*
 !data/missions/.gitkeep
+!data/missions/*.csv
+!data/missions/*.txt
 data/item_id_catalog.json
 data/item_type_catalog.json
 data/package_contents.csv

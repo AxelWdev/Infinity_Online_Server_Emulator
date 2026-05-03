@@ -1,0 +1,24 @@
+# Server-side mission layout for rule 10005 / scene mission_0_6.
+# Evidence sources:
+# - CDirect3DEngineRecomp/GameFiles/scene/mission_0_6.txt has five type="monster" points.
+# - The same scene has macro carriage resource macha_key.csv at (-16.718666, 0.010010, -229.131210).
+#   Native training UDP initializes actors at y=500.0 and lets the client settle them onto terrain.
+#   The mission entities use that same spawn-height convention because raw scene Y put the carriage below floor.
+# - setting/npc_ai type.txt maps guard kind 14 to AI class 3 for the Kalitium Entrance carriage.
+# - setting/npc_ai type.txt maps jaco kind 30 to AI class 36 for native mission 0-6 Ramyuel.
+# - Native training dummies serialize state0=21, matching AI class Dummy=21 rather than dummy_ai.csv kind 0..5.
+# - Ghidra confirms opcode 0x03 snapshot bytes state0..state3 are entity fields +0x16c,+0x170,+0x17c,+0x178.
+# - Native entity creation initializes state2=0 and state3=2; state3 is the low byte of entity dword +0x178.
+#   State2 is the low byte of the adjacent +0x17c counted-entry counter area, so it should start at zero.
+# - Native guard/training snapshots show state0=AI class and state1=NPC kind:
+#   e.g. guard class 1 with kind 0/3/8 serializes as [1,0/3/8,0,2], while dummy class 21 kind 0 serializes as [21,0,0,2].
+# - Ramuel actors therefore use AI class state0=36 with jaco kind state1=30; the carriage uses guard mission class 3 with guard kind state1=14.
+# The resource names and positions are asset-confirmed. The UDP object ids remain server-side tunables.
+# Ramuel UDP actors use the animation-table key `green_key`, not the scene mesh filename `green_key.am`.
+role,entity_object_id,field_06,category,state0,state1,state2,state3,appearance0,appearance1,appearance2,appearance3,appearance4,appearance5,x,y,z,resource_key,display_name,group_name
+objective_carriage,2004,0,2,3,14,0,2,0,0,0,0,0,0,-16.718666,500.000000,-229.131210,macha_key,Transport,
+enemy_ramuel,5068,0,3,36,30,0,2,0,0,0,0,0,0,713.703735,500.000000,-146.461884,green_key,Ramuel,
+enemy_ramuel,5076,0,3,36,30,0,2,0,0,0,0,0,0,568.655884,500.000000,-194.431580,green_key,Ramuel,
+enemy_ramuel,5084,0,3,36,30,0,2,0,0,0,0,0,0,731.058350,500.000000,-84.105072,green_key,Ramuel,
+enemy_ramuel,5092,0,3,36,30,0,2,0,0,0,0,0,0,528.509216,500.000000,-122.166580,green_key,Ramuel,
+enemy_ramuel,5100,0,3,36,30,0,2,0,0,0,0,0,0,630.981506,500.000000,-130.088089,green_key,Ramuel,
