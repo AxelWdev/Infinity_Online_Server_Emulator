@@ -40,3 +40,10 @@ data/item_type_catalog.json
 # Local scratch
 *.tmp
 *.bak
+
+# Local pack-tool inputs/outputs
+tools/unpacker/*.bin
+tools/unpacker/unpacked/
+tools/unpacker/extracted/
+tools/unpacker/repacked/
+tools/unpacker/output/

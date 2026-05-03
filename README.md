@@ -83,6 +83,7 @@ On Windows, `run.bat Debug` builds and runs the server in one step. `run.bat` de
 | `data/missions/` | Included starter mission layout data. |
 | `http_server/` | Node.js `/net_gsp.php` endpoint helper for local client startup. |
 | `injector/` | x86 client hook/injector source and build instructions. |
+| `tools/` | Public helper scripts plus Infinity `.bin` pack unpacker/repacker source. |
 | `client_runtime/` | Notes for external client runtime files that are not tracked in this repo. |
 | `ROADMAP.md` | Detailed implementation status and future work. |
 
