@@ -27,10 +27,10 @@ build\Debug\tcp_lzss_server_cpp.exe --host 127.0.0.1 --port 8080 --game-udp-port
 
 ## Demo Accounts
 
-The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema.
+The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no owned/equipped shop items so item and skill purchases can populate inventory during testing.
 
-- `player` / `player`: populated demo account
-- `newuser` / `newuser`: basic starter profile
+- `player` / `player`: named demo account with currency and empty inventory
+- `newuser` / `newuser`: unnamed starter profile with currency and empty inventory
 
 The server may update `account_database.json` while you test inventory, nickname, or shop flows. To reset the demo seed:
 

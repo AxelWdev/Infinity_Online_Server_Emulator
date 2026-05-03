@@ -103,201 +103,34 @@
           }
         ],
         "inventory": {
-          "shared_item_stacks": [
-            {
-              "item_id": 1,
-              "owned_count": 99
-            },
-            {
-              "item_id": 2,
-              "owned_count": 99
-            },
-            {
-              "item_id": 3,
-              "owned_count": 99
-            },
-            {
-              "item_id": 4,
-              "owned_count": 99
-            },
-            {
-              "item_id": 5,
-              "owned_count": 99
-            },
-            {
-              "item_id": 6,
-              "owned_count": 99
-            },
-            {
-              "item_id": 7,
-              "owned_count": 99
-            },
-            {
-              "item_id": 8,
-              "owned_count": 99
-            },
-            {
-              "item_id": 9,
-              "owned_count": 99
-            },
-            {
-              "item_id": 10,
-              "owned_count": 99
-            },
-            {
-              "item_id": 11,
-              "owned_count": 99
-            },
-            {
-              "item_id": 12,
-              "owned_count": 99
-            },
-            {
-              "item_id": 13,
-              "owned_count": 99
-            },
-            {
-              "item_id": 14,
-              "owned_count": 99
-            },
-            {
-              "item_id": 15,
-              "owned_count": 99
-            },
-            {
-              "item_id": 16,
-              "owned_count": 99
-            },
-            {
-              "item_id": 17,
-              "owned_count": 99
-            },
-            {
-              "item_id": 18,
-              "owned_count": 99
-            },
-            {
-              "item_id": 19,
-              "owned_count": 99
-            },
-            {
-              "item_id": 20,
-              "owned_count": 99
-            },
-            {
-              "item_id": 6015,
-              "owned_count": 1
-            },
-            {
-              "item_id": 6023,
-              "owned_count": 1
-            },
-            {
-              "item_id": 6041,
-              "owned_count": 1
-            },
-            {
-              "item_id": 605023,
-              "owned_count": 1
-            }
-          ],
-          "owned_skills": [
-            {
-              "skill_item_id": 119,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 125,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 136,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 219,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 319,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 321,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 334,
-              "duration_minutes": 43200
-            },
-            {
-              "skill_item_id": 436,
-              "duration_minutes": 4320
-            },
-            {
-              "skill_item_id": 622,
-              "duration_minutes": 4320
-            }
-          ],
+          "shared_item_stacks": [],
+          "owned_skills": [],
           "characters": [
             {
               "character_id": 1,
-              "equipped_weapon_item_id": 305,
-              "clothes_item_id": 8000,
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                305,
-                8007
-              ],
-              "owned_clothes_item_ids": [
-                8000
-              ],
-              "owned_accessory_1_item_ids": [
-                8004
-              ],
-              "owned_accessory_2_item_ids": [
-                8005
-              ],
-              "owned_accessory_3_item_ids": [
-                8006
-              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 2,
-              "equipped_weapon_item_id": 306,
-              "clothes_item_id": 8010,
-              "accessory_1_item_id": 8012,
-              "accessory_2_item_id": 8013,
-              "accessory_3_item_id": 8070,
-              "owned_weapon_item_ids": [
-                306,
-                369,
-                8071,
-                8512
-              ],
-              "owned_clothes_item_ids": [
-                8010,
-                8091,
-                8507,
-                8750
-              ],
-              "owned_accessory_1_item_ids": [
-                8012,
-                8314,
-                8509
-              ],
-              "owned_accessory_2_item_ids": [
-                8013,
-                8315,
-                8510
-              ],
-              "owned_accessory_3_item_ids": [
-                8070,
-                8312,
-                8511
-              ]
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
+              "accessory_1_item_id": 0,
+              "accessory_2_item_id": 0,
+              "accessory_3_item_id": 0,
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 3,
@@ -306,112 +139,63 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                375
-              ],
-              "owned_clothes_item_ids": [
-                8092
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 4,
-              "equipped_weapon_item_id": 322,
-              "clothes_item_id": 8519,
-              "accessory_1_item_id": 8521,
-              "accessory_2_item_id": 8522,
-              "accessory_3_item_id": 8523,
-              "owned_weapon_item_ids": [
-                322,
-                381,
-                382,
-                386,
-                8524
-              ],
-              "owned_clothes_item_ids": [
-                8093,
-                8329,
-                8519,
-                8558
-              ],
-              "owned_accessory_1_item_ids": [
-                8330,
-                8521
-              ],
-              "owned_accessory_2_item_ids": [
-                8327,
-                8522
-              ],
-              "owned_accessory_3_item_ids": [
-                8328,
-                8523
-              ]
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
+              "accessory_1_item_id": 0,
+              "accessory_2_item_id": 0,
+              "accessory_3_item_id": 0,
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 5,
-              "equipped_weapon_item_id": 326,
-              "clothes_item_id": 8525,
-              "accessory_1_item_id": 8527,
-              "accessory_2_item_id": 8528,
-              "accessory_3_item_id": 8529,
-              "owned_weapon_item_ids": [
-                326,
-                387,
-                8530
-              ],
-              "owned_clothes_item_ids": [
-                8094,
-                8525
-              ],
-              "owned_accessory_1_item_ids": [
-                8527
-              ],
-              "owned_accessory_2_item_ids": [
-                8528
-              ],
-              "owned_accessory_3_item_ids": [
-                8529
-              ]
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
+              "accessory_1_item_id": 0,
+              "accessory_2_item_id": 0,
+              "accessory_3_item_id": 0,
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 6,
-              "equipped_weapon_item_id": 393,
-              "clothes_item_id": 8095,
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                393
-              ],
-              "owned_clothes_item_ids": [
-                8095
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 7,
-              "equipped_weapon_item_id": 338,
-              "clothes_item_id": 8734,
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                338,
-                339,
-                399
-              ],
-              "owned_clothes_item_ids": [
-                223,
-                8096,
-                8734
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 8,
@@ -420,32 +204,24 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                405
-              ],
-              "owned_clothes_item_ids": [
-                8097
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 9,
-              "equipped_weapon_item_id": 411,
-              "clothes_item_id": 8098,
+              "equipped_weapon_item_id": 0,
+              "clothes_item_id": 0,
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                411
-              ],
-              "owned_clothes_item_ids": [
-                8098
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             }
           ]
         }
@@ -512,89 +288,8 @@
           }
         ],
         "inventory": {
-          "shared_item_stacks": [
-            {
-              "item_id": 1,
-              "owned_count": 99
-            },
-            {
-              "item_id": 2,
-              "owned_count": 99
-            },
-            {
-              "item_id": 3,
-              "owned_count": 99
-            },
-            {
-              "item_id": 4,
-              "owned_count": 99
-            },
-            {
-              "item_id": 5,
-              "owned_count": 99
-            },
-            {
-              "item_id": 6,
-              "owned_count": 99
-            },
-            {
-              "item_id": 7,
-              "owned_count": 99
-            },
-            {
-              "item_id": 8,
-              "owned_count": 99
-            },
-            {
-              "item_id": 9,
-              "owned_count": 99
-            },
-            {
-              "item_id": 10,
-              "owned_count": 99
-            },
-            {
-              "item_id": 11,
-              "owned_count": 99
-            },
-            {
-              "item_id": 12,
-              "owned_count": 99
-            },
-            {
-              "item_id": 13,
-              "owned_count": 99
-            },
-            {
-              "item_id": 14,
-              "owned_count": 99
-            },
-            {
-              "item_id": 15,
-              "owned_count": 99
-            },
-            {
-              "item_id": 16,
-              "owned_count": 99
-            },
-            {
-              "item_id": 17,
-              "owned_count": 99
-            },
-            {
-              "item_id": 18,
-              "owned_count": 99
-            },
-            {
-              "item_id": 19,
-              "owned_count": 99
-            },
-            {
-              "item_id": 20,
-              "owned_count": 99
-            }
-          ],
-          "owned_skills": [          ],
+          "shared_item_stacks": [],
+          "owned_skills": [],
           "characters": [
             {
               "character_id": 1,
@@ -603,15 +298,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                363
-              ],
-              "owned_clothes_item_ids": [
-                8090
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 2,
@@ -620,15 +311,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                369
-              ],
-              "owned_clothes_item_ids": [
-                8091
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 3,
@@ -637,15 +324,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                375
-              ],
-              "owned_clothes_item_ids": [
-                8092
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 4,
@@ -654,15 +337,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                381
-              ],
-              "owned_clothes_item_ids": [
-                8093
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 5,
@@ -671,15 +350,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                387
-              ],
-              "owned_clothes_item_ids": [
-                8094
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 6,
@@ -688,15 +363,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                393
-              ],
-              "owned_clothes_item_ids": [
-                8095
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 7,
@@ -705,15 +376,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                399
-              ],
-              "owned_clothes_item_ids": [
-                8096
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 8,
@@ -722,15 +389,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                405
-              ],
-              "owned_clothes_item_ids": [
-                8097
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             },
             {
               "character_id": 9,
@@ -739,15 +402,11 @@
               "accessory_1_item_id": 0,
               "accessory_2_item_id": 0,
               "accessory_3_item_id": 0,
-              "owned_weapon_item_ids": [
-                411
-              ],
-              "owned_clothes_item_ids": [
-                8098
-              ],
-              "owned_accessory_1_item_ids": [              ],
-              "owned_accessory_2_item_ids": [              ],
-              "owned_accessory_3_item_ids": [              ]
+              "owned_weapon_item_ids": [],
+              "owned_clothes_item_ids": [],
+              "owned_accessory_1_item_ids": [],
+              "owned_accessory_2_item_ids": [],
+              "owned_accessory_3_item_ids": []
             }
           ]
         }
