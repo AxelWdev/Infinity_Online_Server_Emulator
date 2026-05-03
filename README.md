@@ -36,6 +36,22 @@ Optional helpers are included for local client testing:
 - `http_server/`: Node.js `/net_gsp.php` endpoint helper. Its README includes the Windows hosts-file entry for `www.arngamez.com`.
 - `injector/`: x86 client hook/injector source. Its README includes Visual Studio build steps and runtime usage.
 
+## Client Setup
+
+Archived client installers are available here:
+
+- https://archive.org/details/infinity-online-client
+
+Install or unpack the client outside this repository. The client folder should contain `xclient.exe`.
+
+`speedtreert.dll` must be in the same folder as `xclient.exe`. The DLL itself is not tracked in this repo; if it is missing, copy it from the installed client package into that folder. See `client_runtime/README.md` for the reference hash observed during repo preparation.
+
+Start the client from a terminal so the language flag is applied:
+
+```powershell
+.\xclient.exe -english
+```
+
 ## Demo Accounts
 
 The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no real owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.
