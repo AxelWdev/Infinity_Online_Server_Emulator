@@ -4,10 +4,15 @@
 ![CMake](https://img.shields.io/badge/build-CMake-064F8C?logo=cmake&logoColor=white)
 ![Windows](https://img.shields.io/badge/platform-Windows-0078D4?logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/status-server%20emulator%20research-orange)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 Research-oriented C++20 server emulator for Infinity client protocol work.
 
 This project is meant to emulate enough client-facing behavior for local protocol testing, login/lobby/shop flows, room setup, and ongoing gameplay research. It is not a complete private server, not a production MMORPG backend, and it does not contain official server code.
+
+Affiliation disclaimer: this project is not affiliated with, endorsed by, or sponsored by Windysoft, GameTribe, Game Media Networks, Digital Bros, `game & game`, or any current or former Infinity Online rights holder.
+
+Code and documentation authored for this repository are released under the [MIT License](LICENSE). The license does not grant rights to third-party trademarks, original Infinity Online game assets, client binaries, runtime DLLs, or external installer archives.
 
 ## At A Glance
 
