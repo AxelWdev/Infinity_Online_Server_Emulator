@@ -18,6 +18,21 @@ This project is meant to emulate enough client-facing behavior for local protoco
 | A place to document confirmed packet behavior | A source of official server code |
 | A sanitized public export | A dump of captures, logs, private accounts, or client binaries |
 
+## Game Background
+
+Infinity Online, also styled as INFINITY Online or INFINITY, was a Korean Windows PC free-to-play action MMOG/MMORPG developed by Windysoft. Public historical listings describe it as a lobby and room-based online hack-and-slash game with PvP arenas, cooperative PvE missions, combo-focused combat, guard companions, character unlocks, and the in-game currency Luna.
+
+The game was associated with several publishers and operators across regions. Public catalogs list Windysoft as the developer and publisher for the original PC release, with `game & game` and `Gametribe` also appearing in publisher listings. European operation was tied to GameTribe / Game Media Networks, a Digital Bros online-games portal. JeuxOnLine records that the European service closed with GameTribe on December 31, 2009, after which the game remained available in South Korea on Windysoft servers before also being discontinued.
+
+This emulator exists for preservation, interoperability, and protocol research around the original Infinity Online client. It focuses on reconstructing client/server behavior from observed packets and client-side behavior, while keeping proprietary client binaries, private captures, and official server code out of the public repository.
+
+Historical references:
+
+- [UVL: Infinity Online](https://www.uvlist.net/game-166908-Infinity%2BOnline)
+- [JeuxOnLine: Infinity Online](https://www.jeuxonline.info/jeu/Infinity_Online)
+- [GameFAQs: Infinity Online Release Details](https://gamefaqs.gamespot.com/pc/936377-infinity-online/data)
+- [GameSource: Gametribe.com closure notice](https://www.gamesource.it/notizie/gametribe-com-chiude-definitivamente/)
+
 ## Current Status
 
 | Area | Status | Notes |
