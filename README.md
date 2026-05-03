@@ -45,7 +45,7 @@ Historical references:
 | Build and startup | Implemented | CMake project with `build.bat`, `run.bat`, starter JSON, and CSV data. |
 | TCP transport | Implemented | LZSS stream handling, logical packet framing, logging, and opcode dispatch. |
 | Login and lobby | Implemented locally | Covers known login challenge, lobby connect, channels, account, character, guard, item, skill, and quickslot flows. |
-| Shop and inventory | Implemented locally | Supports item/skill purchase, currency checks, package expansion, equipment, removal, and supported quickslot assignment. |
+| Shop and inventory | Partially implemented locally | Supports item/skill purchase, currency checks, package expansion, equipment, removal, and supported quickslot assignment. |
 | Room setup | Partially implemented | Covers TCP room list/create/info/state/start/leave flows used by the current emulator path. |
 | UDP gameplay | Experimental | Native-order sync work exists behind `--experimental-game-udp-sync`; mission gameplay is not complete. |
 | Full MMORPG backend | Not implemented | No complete authoritative combat, rewards, matchmaking, account security, persistence layer, or production operations. |
