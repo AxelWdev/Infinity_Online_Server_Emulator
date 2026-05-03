@@ -46,7 +46,7 @@ Historical references:
 | TCP transport | Implemented | LZSS stream handling, logical packet framing, logging, and opcode dispatch. |
 | Login and lobby | Implemented locally | Covers known login challenge, lobby connect, channels, account, character, guard, item, skill, and quickslot flows. |
 | Shop and inventory | Partially implemented locally | Supports item/skill purchase, currency checks, package expansion, equipment, removal, and supported quickslot assignment. |
-| Room setup | Partially implemented | Covers TCP room list/create/info/state/start/leave flows used by the current emulator path. |
+| Mission room setup | Partially implemented | Covers TCP mission room list/create/info/state/start/leave flows used by the current emulator path. PvP room creation is not supported yet. |
 | UDP gameplay | Experimental | Native-order sync work exists behind `--experimental-game-udp-sync`; mission gameplay is not complete. |
 | Full MMORPG backend | Not implemented | No complete authoritative combat, rewards, matchmaking, account security, persistence layer, or production operations. |
 

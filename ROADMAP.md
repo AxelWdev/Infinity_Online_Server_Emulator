@@ -14,7 +14,7 @@ The roadmap below describes the public repository status. Items marked as implem
 - Game data catalog loading for item/shop/skill/package behavior.
 - Basic account and lobby flow support, including login challenge, lobby connect, channel enumeration, account info, character list, guard list, item list, skill list, quickslot list, and keepalive/no-response handling for observed packets.
 - Basic inventory operations, including item purchase, skill purchase, currency checks, package expansion, item removal, equipment assignment, and quickslot assignment for supported item kinds.
-- TCP room setup flows, including room list, room create completion, room info, room state, character select state, room start handling, and room leave handling.
+- TCP mission room setup flows, including room list, room create completion, room info, room state, character select state, room start handling, and room leave handling. PvP room creation is not supported yet.
 - Local room registry/runtime room state for emulator-side TCP room behavior.
 - Experimental UDP game server path with native-order sync work guarded by `--experimental-game-udp-sync`.
 - UDP traffic logging and hook-log decode tools for protocol investigation.
@@ -29,7 +29,7 @@ The roadmap below describes the public repository status. Items marked as implem
 - Add broader automated tests for packet encoding/decoding, account persistence, inventory rules, room flows, and data loading.
 - Add CI builds for supported Windows toolchains.
 - Implement production-grade account storage if the emulator ever needs long-running public testing: password hashing, migrations, backups, admin tooling, and safer account-reset flows.
-- Expand channel, lobby, matchmaking, room ownership, and multi-client synchronization beyond the current local emulator behavior.
+- Expand channel, lobby, matchmaking, PvP room creation, room ownership, and multi-client synchronization beyond the current local emulator behavior.
 - Complete mission catalog coverage. The repo does not currently include a full reviewed `data/setting/mission.csv`.
 - Complete authoritative gameplay simulation: movement validation, combat rules, damage, deaths, objectives, mission completion, rewards, drops, and progression.
 - Finish and verify UDP gameplay synchronization for real mission play. Current UDP work is experimental and should be validated with captures before being treated as stable.
@@ -42,7 +42,7 @@ The roadmap below describes the public repository status. Items marked as implem
 ## Suggested Milestones
 
 - M1: Make the TCP lobby/shop/inventory path repeatable with tests.
-- M2: Stabilize TCP room creation, entry, start, leave, and multi-client room state.
+- M2: Stabilize TCP mission room creation, entry, start, leave, and multi-client room state.
 - M3: Confirm the UDP mission-entry sequence and document packet fields from capture evidence.
 - M4: Implement a minimal authoritative mission loop for one training mission.
 - M5: Add persistent progression, rewards, and broader data coverage.
