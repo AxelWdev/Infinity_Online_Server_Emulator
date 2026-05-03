@@ -29,6 +29,13 @@ build\Debug\tcp_lzss_server_cpp.exe --host 127.0.0.1 --port 8080 --game-udp-port
 
 On Windows, `run.bat Debug` builds and runs the server in one step. `run.bat` defaults to Release.
 
+## Client Helpers
+
+Optional helpers are included for local client testing:
+
+- `http_server/`: Node.js `/net_gsp.php` endpoint helper. Its README includes the Windows hosts-file entry for `www.arngamez.com`.
+- `injector/`: x86 client hook/injector source. Its README includes Visual Studio build steps and runtime usage.
+
 ## Demo Accounts
 
 The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no real owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.

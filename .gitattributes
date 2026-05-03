@@ -5,6 +5,7 @@
 *.hpp text eol=lf
 *.md text eol=lf
 *.json text eol=lf
+*.js text eol=lf
 *.csv text eol=crlf
 *.txt text eol=crlf
 *.cmake text eol=lf
