@@ -1,0 +1,40 @@
+build/
+out/
+.vs/
+.vscode/
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# Runtime/private data
+account_database.json
+account_database*.json
+!account_database.example.json
+tcp_lzss_server_options.json
+!tcp_lzss_server_options.example.json
+
+# Logs and packet captures
+logs/
+logs_archive/
+*.log
+*.decoded.txt
+udp_hook_decode_report*.txt
+tcp_lzss_server_cpp_debug.log
+
+# Extracted/generated game data. Keep only documentation/placeholders.
+data/setting/*
+!data/setting/.gitkeep
+data/missions/*
+!data/missions/.gitkeep
+data/item_id_catalog.json
+data/item_type_catalog.json
+data/package_contents.csv
+
+# Local scratch
+*.tmp
+*.bak
