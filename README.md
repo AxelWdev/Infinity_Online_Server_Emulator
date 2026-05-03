@@ -111,10 +111,10 @@ Optional helpers are included for local client testing:
 
 ## Demo Accounts
 
-The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no real owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.
+The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with `luna` and `cash` set to `999999`, plus `shared_item_stacks` entries for item IDs `1` through `20` with `owned_count: 99`. They still start with no owned/equipped character equipment and no owned skills, so shop purchases can populate those parts of the inventory during testing.
 
-- `player` / `player`: named demo account with currency and no real owned items
-- `newuser` / `newuser`: unnamed starter profile with currency and no real owned items
+- `player` / `player`: named demo account with currency and shared stack items
+- `newuser` / `newuser`: unnamed starter profile with currency and shared stack items
 
 The server may update `account_database.json` while you test inventory, nickname, or shop flows. To reset the demo seed:
 

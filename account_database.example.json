@@ -10,8 +10,8 @@
           "field_04_unknown": 0,
           "level_raw": 50,
           "field_09_unknown": 0,
-          "luna": 341549,
-          "cash": 933799,
+          "luna": 999999,
+          "cash": 999999,
           "event_cash": 0,
           "total_kill_count": 0,
           "profile_flags": 0,
@@ -105,8 +105,84 @@
         "inventory": {
           "shared_item_stacks": [
             {
-              "item_id": 0,
-              "owned_count": 0
+              "item_id": 1,
+              "owned_count": 99
+            },
+            {
+              "item_id": 2,
+              "owned_count": 99
+            },
+            {
+              "item_id": 3,
+              "owned_count": 99
+            },
+            {
+              "item_id": 4,
+              "owned_count": 99
+            },
+            {
+              "item_id": 5,
+              "owned_count": 99
+            },
+            {
+              "item_id": 6,
+              "owned_count": 99
+            },
+            {
+              "item_id": 7,
+              "owned_count": 99
+            },
+            {
+              "item_id": 8,
+              "owned_count": 99
+            },
+            {
+              "item_id": 9,
+              "owned_count": 99
+            },
+            {
+              "item_id": 10,
+              "owned_count": 99
+            },
+            {
+              "item_id": 11,
+              "owned_count": 99
+            },
+            {
+              "item_id": 12,
+              "owned_count": 99
+            },
+            {
+              "item_id": 13,
+              "owned_count": 99
+            },
+            {
+              "item_id": 14,
+              "owned_count": 99
+            },
+            {
+              "item_id": 15,
+              "owned_count": 99
+            },
+            {
+              "item_id": 16,
+              "owned_count": 99
+            },
+            {
+              "item_id": 17,
+              "owned_count": 99
+            },
+            {
+              "item_id": 18,
+              "owned_count": 99
+            },
+            {
+              "item_id": 19,
+              "owned_count": 99
+            },
+            {
+              "item_id": 20,
+              "owned_count": 99
             }
           ],
           "owned_skills": [],
@@ -295,8 +371,84 @@
         "inventory": {
           "shared_item_stacks": [
             {
-              "item_id": 0,
-              "owned_count": 0
+              "item_id": 1,
+              "owned_count": 99
+            },
+            {
+              "item_id": 2,
+              "owned_count": 99
+            },
+            {
+              "item_id": 3,
+              "owned_count": 99
+            },
+            {
+              "item_id": 4,
+              "owned_count": 99
+            },
+            {
+              "item_id": 5,
+              "owned_count": 99
+            },
+            {
+              "item_id": 6,
+              "owned_count": 99
+            },
+            {
+              "item_id": 7,
+              "owned_count": 99
+            },
+            {
+              "item_id": 8,
+              "owned_count": 99
+            },
+            {
+              "item_id": 9,
+              "owned_count": 99
+            },
+            {
+              "item_id": 10,
+              "owned_count": 99
+            },
+            {
+              "item_id": 11,
+              "owned_count": 99
+            },
+            {
+              "item_id": 12,
+              "owned_count": 99
+            },
+            {
+              "item_id": 13,
+              "owned_count": 99
+            },
+            {
+              "item_id": 14,
+              "owned_count": 99
+            },
+            {
+              "item_id": 15,
+              "owned_count": 99
+            },
+            {
+              "item_id": 16,
+              "owned_count": 99
+            },
+            {
+              "item_id": 17,
+              "owned_count": 99
+            },
+            {
+              "item_id": 18,
+              "owned_count": 99
+            },
+            {
+              "item_id": 19,
+              "owned_count": 99
+            },
+            {
+              "item_id": 20,
+              "owned_count": 99
             }
           ],
           "owned_skills": [],
