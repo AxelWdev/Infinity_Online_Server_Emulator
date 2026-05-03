@@ -103,7 +103,12 @@
           }
         ],
         "inventory": {
-          "shared_item_stacks": [],
+          "shared_item_stacks": [
+            {
+              "item_id": 0,
+              "owned_count": 0
+            }
+          ],
           "owned_skills": [],
           "characters": [
             {
@@ -288,7 +293,12 @@
           }
         ],
         "inventory": {
-          "shared_item_stacks": [],
+          "shared_item_stacks": [
+            {
+              "item_id": 0,
+              "owned_count": 0
+            }
+          ],
           "owned_skills": [],
           "characters": [
             {

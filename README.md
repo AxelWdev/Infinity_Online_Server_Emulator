@@ -27,7 +27,7 @@ build\Debug\tcp_lzss_server_cpp.exe --host 127.0.0.1 --port 8080 --game-udp-port
 
 ## Demo Accounts
 
-The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no owned/equipped shop items so item and skill purchases can populate inventory during testing.
+The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.
 
 - `player` / `player`: named demo account with currency and empty inventory
 - `newuser` / `newuser`: unnamed starter profile with currency and empty inventory
