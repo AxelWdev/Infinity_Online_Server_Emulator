@@ -41,10 +41,11 @@ Optional helpers are included for local client testing:
 Archived client installers are available here:
 
 - https://archive.org/details/infinity-online-client
+- https://archive.org/details/cbt-infinity-20101011-manual
 
 Install or unpack the client outside this repository. The client folder should contain `xclient.exe`.
 
-`speedtreert.dll` must be in the same folder as `xclient.exe`. The DLL itself is not tracked in this repo; if it is missing, copy it from the installed client package into that folder. See `client_runtime/README.md` for the reference hash observed during repo preparation.
+`speedtreert.dll` must be in the same folder as `xclient.exe`. The DLL itself is not tracked in this repo; if it is missing, copy it from an installed client package. The CBT client archive above is a known source for it. See `client_runtime/README.md` for the reference hash observed during repo preparation.
 
 Start the client from a terminal so the language flag is applied:
 

@@ -6,9 +6,10 @@ Install or unpack the client from:
 
 ```text
 https://archive.org/details/infinity-online-client
+https://archive.org/details/cbt-infinity-20101011-manual
 ```
 
-Place `speedtreert.dll` in the same folder as `xclient.exe`.
+Place `speedtreert.dll` in the same folder as `xclient.exe`. The CBT client archive is a known source for this DLL.
 
 Local reference copy observed during repo preparation:
 
