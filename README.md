@@ -2,7 +2,7 @@
 
 Standalone C++ server implementation for the Infinity client protocol work.
 
-This public export contains the C++ server, starter runtime configuration, and the CSV data needed by the current item/skill/mission loaders. It does not include packet captures, runtime logs, decoded traffic reports, generated catalogs, or private local account data.
+This public export contains the C++ server, starter runtime configuration, and CSV data for the current item, skill, package, and included mission-layout loaders. It does not include packet captures, runtime logs, decoded traffic reports, generated helper catalogs, or private local account data.
 
 ## Build
 
@@ -10,6 +10,8 @@ This public export contains the C++ server, starter runtime configuration, and t
 cmake -S . -B build
 cmake --build build --config Debug
 ```
+
+On Windows, `build.bat Debug` or `build.bat Release` runs the same CMake flow.
 
 ## Run
 
@@ -25,12 +27,14 @@ Useful flags:
 build\Debug\tcp_lzss_server_cpp.exe --host 127.0.0.1 --port 8080 --game-udp-port 8081
 ```
 
+On Windows, `run.bat Debug` builds and runs the server in one step. `run.bat` defaults to Release.
+
 ## Demo Accounts
 
-The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.
+The tracked `account_database.json` is a runnable demo seed using the same fields as the working server schema. Demo accounts start with no real owned/equipped shop items so item and skill purchases can populate inventory during testing. `shared_item_stacks` keeps a `{ "item_id": 0, "owned_count": 0 }` placeholder to show the expected object shape; `item_id: 0` is ignored by the server.
 
-- `player` / `player`: named demo account with currency and empty inventory
-- `newuser` / `newuser`: unnamed starter profile with currency and empty inventory
+- `player` / `player`: named demo account with currency and no real owned items
+- `newuser` / `newuser`: unnamed starter profile with currency and no real owned items
 
 The server may update `account_database.json` while you test inventory, nickname, or shop flows. To reset the demo seed:
 
@@ -50,15 +54,15 @@ build\Debug\tcp_lzss_server_cpp.exe --account-db-file account_database.local.jso
 
 The repo includes starter CSV data from:
 
-- `data/setting/item_skill_v2.csv`
-- `data/setting/item_skill.csv`
-- `data/setting/game_itemlist.csv`
-- `data/setting/item.csv`
-- `data/setting/character.csv`
-- `data/package_contents.csv`
-- `data/missions/*.csv`
+- `data/setting/item_skill_v2.csv`: preferred skill/shop catalog
+- `data/setting/item_skill.csv`: legacy skill/shop fallback
+- `data/setting/game_itemlist.csv`: starter item id list
+- `data/setting/item.csv`: item metadata, prices, equipment categories
+- `data/setting/character.csv`: character names and asset keys
+- `data/package_contents.csv`: package/bundle expansion table
+- `data/missions/mission_0_6.csv`: included mission layout data
 
-`data/package_contents.csv` lets package/bundle shop items expand into their contained equipment or items when purchased.
+The repo does not currently include a full `data/setting/mission.csv` mission catalog. TCP room flows use `tcp_lzss_server_options.json`; experimental UDP mission sync may need a reviewed mission catalog for broader mission support.
 
 Generated helper catalogs are still ignored:
 
