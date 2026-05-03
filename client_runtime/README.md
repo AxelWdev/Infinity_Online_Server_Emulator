@@ -2,14 +2,19 @@
 
 The public repository does not track proprietary client binaries or third-party runtime DLLs.
 
-Install or unpack the client from:
+Install or unpack the main client from:
 
 ```text
 https://archive.org/details/infinity-online-client
+```
+
+Only use the CBT archive below to extract `speedtreert.dll` if the main client folder is missing it:
+
+```text
 https://archive.org/details/cbt-infinity-20101011-manual
 ```
 
-Place `speedtreert.dll` in the same folder as `xclient.exe`. The CBT client archive is a known source for this DLL.
+Place `speedtreert.dll` in the same folder as `xclient.exe`. Do not replace the main client with the CBT client for this setup; copy only the DLL from the CBT archive when needed.
 
 Local reference copy observed during repo preparation:
 
